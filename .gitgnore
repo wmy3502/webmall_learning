@@ -1,0 +1,8 @@
+#temp file
+
+*.log
+*.cache
+*.ear
+
+#idea
+.idea/
