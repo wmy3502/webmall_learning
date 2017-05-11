@@ -1,13 +1,8 @@
 <component name="ArtifactManager">
-  <artifact type="exploded-war" name="imooc:war">
-    <output-path>$PROJECT_DIR$</output-path>
-    <root id="root">
-      <element id="directory" name="WEB-INF">
-        <element id="directory" name="classes">
-          <element id="module-output" name="imooc" />
-        </element>
-      </element>
-      <element id="javaee-facet-resources" facet="imooc/web/Web" />
+  <artifact type="war" name="imooc:war">
+    <output-path>$PROJECT_DIR$/target</output-path>
+    <root id="archive" name="imooc.war">
+      <element id="artifact" artifact-name="imooc:war exploded" />
     </root>
   </artifact>
 </component>
